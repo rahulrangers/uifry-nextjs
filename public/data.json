@@ -1,0 +1,86 @@
+{
+    "hero": {
+      "headline": "Make The Best Financial Decisions",
+      "subheadline": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+      "ctaButtons": [
+        {
+          "text": "Get Started",
+          "link": "/download"
+        },
+        {
+          "text": "Watch Video",
+          "link": "#features"
+        }
+      ]
+    },
+    "features":  {
+    "heading":"FEATURES",
+    "subheading":"Uifry Premium",
+    "feature":[
+      {
+        "title": "Budgeting Intervals",
+        "description": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+        "icon": "https://iili.io/JmfXMpR.png"
+      },
+      {
+        "title": "Budgeting Intervals",
+        "description": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+        "icon": "https://iili.io/JbMCGAQ.png"
+      },
+      {
+        "title": "Budgeting Intervals",
+        "description": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+        "icon": "https://iili.io/Jmfjs5b.png"
+      }
+    ]},
+    "testimonials": 
+      {
+        "heading":"TESTIMONIAL",
+        "sub-heading":"What About Users",
+        "name": "Nick Jonas",
+        "title":"The Best Financial Accounting App Ever!",
+        "feedback": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
+        "avatar": "https://iili.io/JbtFh22.png"
+      }
+    ,
+    "FAQ": [
+      {
+        "title": "The Best Financial Accounting App Ever!",
+        "description": "“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris"
+      },
+      {
+        "title": "The Best Financial Accounting App Ever!",
+        "description": "“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris"
+      },
+      {
+        "title": "The Best Financial Accounting App Ever!",
+        "description": "“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris"
+      },
+      {
+        "title": "The Best Financial Accounting App Ever!",
+        "description": "“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris"
+      },
+      {
+        "title": "The Best Financial Accounting App Ever!",
+        "description": "“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris"
+      },
+      {
+        "title": "The Best Financial Accounting App Ever!",
+        "description": "“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris"
+      }
+    ]
+    ,
+    "Advantages":{
+        "heading":"ADVANTAGES",
+        "subheading":"Why Choose Uifry?",
+   "advantage":[{
+        "title":"Clever Notifications",
+        "description":"Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In Ultrices Malesuada Elit Mauris Etiam Odio. Duis Tristique Lacus, Et Blandit Viverra Nisl Velit. Sed Mattis Rhoncus, Diam Suspendisse Sit Nunc, Gravida Eu. Lectus Eget Eget Ac Dolor Neque Lorem Sapien, Suspendisse Aliquam."
+
+    },{
+        "title":" Fully Customizable",
+        "description":"Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In Ultrices Malesuada Elit Mauris Etiam Odio. Duis Tristique Lacus, Et Blandit Viverra Nisl Velit. Sed Mattis Rhoncus, Diam Suspendisse Sit Nunc, Gravida Eu. Lectus Eget Eget Ac Dolor Neque Lorem Sapien, Suspendisse Aliquam."
+    }
+]}
+
+}
