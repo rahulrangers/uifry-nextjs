@@ -13,7 +13,7 @@ import Advantages from "@/components/Advantages";
 
 // Server-side function to fetch data
 async function fetchData(): Promise<Data> {
-  const filePath = path.join(process.cwd(), '../uifry/public/data.json');
+  const filePath = path.join(process.cwd(), './public/data.json');
   const jsonData = fs.readFileSync(filePath, 'utf-8');
   const data: Data = JSON.parse(jsonData);
   return data;
