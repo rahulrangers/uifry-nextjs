@@ -1,6 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## To run Locally
+1) clone this repo.
+2) Run npm install .
+3) Run npm run dev in you terminal and see the app running in http://localhost:3000/
 
 First, run the development server:
 
