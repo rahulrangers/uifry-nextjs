@@ -1,9 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## To run Locally
+## To run Locally:
 1) clone this repo.
 2) Run npm install .
 3) Run npm run dev in you terminal and see the app running in http://localhost:3000/
+## Designs Used:
+1) Tailwind CSS is used through out the project.
+2) Framer-motion for the navbar.
+3) material UI for making the footer responsive.
+## Figma Link Used as Reference:
+https://www.figma.com/community/file/1145991068621514311/app-landing-page-finance-bank-money
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
