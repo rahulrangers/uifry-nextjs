@@ -52,7 +52,7 @@ const Footer = () => {
           <div className="m-2 hover:text-orange-400">AboutUs</div>
           <div className="flex">
             <input className="m-1s w-[120px] h-[50px] p-4 bg-slate-100 text-[15px]" placeholder="Your Email" />
-            <button className="px-4  py-1 rounded-md bg-black text-white">Subscribe</button>
+            <button className="px-4  py-1 rounded-md bg-black hover:bg-red-500 text-white">Subscribe</button>
           </div>
         </div>
       </div>

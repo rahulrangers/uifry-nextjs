@@ -1,3 +1,5 @@
+import Slide from "./Slide";
+
 interface Advantage {
   title: string;
   description: string;
@@ -11,6 +13,7 @@ interface Advantagesprops {
 const Advantages: React.FC<Advantagesprops> = ({ heading, subheading, advantage }) => {
   return (
     <div>
+       <Slide delay={0.24}>
       <div className="md2:grid grid-cols-2 flex flex-wrap justify-center w-screen mt-10 ">
         <div className=" flex flex-col flex-wrap items-center md2:items-start md2:my-20 mx-20  ">
           <div className=" text-red-500 text-[15px]"> {heading}</div>
@@ -31,6 +34,8 @@ const Advantages: React.FC<Advantagesprops> = ({ heading, subheading, advantage 
       <div className="flex justify-center ">
         <img className=" rotate-45  w-[44px]  mx-7 " src="https://iili.io/JbE3pDu.png" />
       </div>
+      </Slide>
+      <Slide delay={0.24}>
       <div className="md2:grid grid-cols-2 flex flex-wrap-reverse justify-center">
         <div
           className="md2:mx-20 mx-10 md2:w-[450px] w-[350px] "
@@ -54,6 +59,7 @@ const Advantages: React.FC<Advantagesprops> = ({ heading, subheading, advantage 
         </div>
         <div />
       </div>
+      </Slide>
     </div>
   );
 };

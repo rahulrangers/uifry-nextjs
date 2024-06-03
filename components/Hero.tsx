@@ -5,8 +5,8 @@ type HeroProps = {
 };
 const Hero: React.FC<HeroProps> = ({ headline, subheadline, ctaButtons }) => {
   return (
-    <div className="font-style">
-      <img className="rotate-45 w-[44px] mx-7" src="https://iili.io/JbE3pDu.png" alt="Hero Logo" />
+    <div className="font-style ">
+      <img className="rotate-45 w-[44px]  mx-7" src="https://iili.io/JbE3pDu.png" alt="Hero Logo" />
       <div className="md2:grid grid-cols-2 w-screen mb-10 lg2:m-10 m-5 flex justify-center flex-wrap">
         <div className="flex flex-col md2:items-start items-center">
           <div
@@ -23,7 +23,7 @@ const Hero: React.FC<HeroProps> = ({ headline, subheadline, ctaButtons }) => {
             <div className="flex md2:justify-start justify-center items-center  w-full m-3">
               <a
                 href={ctaButtons[0].link}
-                className="md2:text-[20px] text-[15px] bg-black text-white px-5 py-2 rounded-md hover:bg-slate-800 hover:text-white"
+                className="md2:text-[20px] text-[15px] bg-black text-white px-5 py-2 rounded-md hover:bg-red-500 hover:text-white"
               >
                 {ctaButtons[0].text}
               </a>
@@ -38,7 +38,7 @@ const Hero: React.FC<HeroProps> = ({ headline, subheadline, ctaButtons }) => {
               alt="Secondary Hero Logo"
             />
           </div>
-          <div className="w-[350px] hidden md2:inline md2:mx-20">
+          <div className="w-[350px] lg2:w-[450px] hidden md2:inline md2:mx-20">
             <img className="ml-2" src="https://iili.io/JbbRWmu.png" alt="Secondary Image" />
           </div>
         </div>
