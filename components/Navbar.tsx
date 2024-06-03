@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { IoCloseSharp } from "react-icons/io5";
@@ -36,7 +36,10 @@ export default function Navbar() {
             <Navlinks />
           </div>
           <div className="flex justify-end md2:inline">
-            <a href="/" className="my-5 text-white bg-black py-2 px-5 rounded-md hidden md2:flex hover:bg-slate-800 "> Download</a>
+            <a href="/" className="my-5 text-white bg-black py-2 px-5 rounded-md hidden md2:flex hover:bg-slate-800 ">
+              {" "}
+              Download
+            </a>
             <button onClick={toggleNavbar}>
               {!isOpen ? (
                 <IoMenu className="flex justify-end w-[50px] h-[50px] md2:hidden my-5" />
@@ -46,11 +49,7 @@ export default function Navbar() {
             </button>
           </div>
           <div className="mr-24 my-2">
-            <img
-              className="my-5  text-[26px] hidden md2:flex"
-              src={"https://iili.io/JbE3pDu.png"}
-              alt="logo"
-            />
+            <img className="my-5  text-[26px] hidden md2:flex" src={"https://iili.io/JbE3pDu.png"} alt="logo" />
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        md2: "854px",
+        md2: "864px",
         lg2:"1084px",
       },
       fontFamily: {
