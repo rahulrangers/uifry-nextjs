@@ -44,7 +44,7 @@ export default function Navbar() {
         </div>
             <Navlinks />
           </div>
-          <div className="flex justify-end items-center mb-5 ">
+          <div className="flex justify-end items-center sm:mb-5  ">
             <a href="/" className=" text-white bg-black py-2 px-5 rounded-md hidden md2:flex  hover:bg-red-500">
               {" "}
               Download
